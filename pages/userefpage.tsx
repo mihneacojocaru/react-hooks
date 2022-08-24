@@ -7,7 +7,7 @@ import UseRefExample3 from "../components/UseRefExample3";
 
 const useRefPage: NextPage = () => {
   return (
-    <div className="my-10">
+    <div className="container mx-auto py-16 flex flex-1 flex-col justify-center items-center">
       <h2 className="text-4xl text-center text-orange-500 font-semibold p-2">
         useRef Hook
       </h2>

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="container mx-auto py-16 flex flex-1 flex-col justify-center items-center">
         <h1 className={styles.title}>
           React{" "}
           <a target="_blank" href="https://nextjs.org">
@@ -27,6 +27,11 @@ const Home: NextPage = () => {
           <Link href="/userefpage">
             <a className="text-2xl p-5 underline text-blue-400 cursor-pointer">
               useRef Page
+            </a>
+          </Link>
+          <Link href="/usecallbackpage">
+            <a className="text-2xl p-5 underline text-blue-400 cursor-pointer">
+              useCallback Page
             </a>
           </Link>
         </div>
