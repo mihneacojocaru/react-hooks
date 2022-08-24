@@ -1,11 +1,5 @@
 import { NextPage } from "next";
-import {
-  useState,
-  useEffect,
-  useCallback,
-  SetStateAction,
-  useRef,
-} from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 interface ListInterface {
   getItems: Function;
@@ -58,6 +52,7 @@ const UseRefExample2: NextPage = () => {
   // const getItems = () => {
   //   return [number, number + 1, number + 2];
   // };
+
   const theme = {
     backgroundColor: dark ? "#f1f900" : "#1800f9",
     color: dark ? "#000" : "#fff",
