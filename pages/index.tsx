@@ -2,9 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-import UseRefExample from "../components/UseRefExample";
-import UseRefExample2 from "../components/UseRefExample2";
-import UseRefExample3 from "../components/UseRefExample3";
 import Link from "next/link";
 
 const Home: NextPage = () => {
