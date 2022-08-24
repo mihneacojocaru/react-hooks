@@ -29,8 +29,10 @@
 }
 
 .title a {
-  color: #0070f3;
+  /* color: #0070f3; */
+  color: rgb(249 115 22);
   text-decoration: none;
+  transition: all 1s ease;
 }
 
 .title a:hover,
@@ -43,6 +45,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-bottom: 2rem;
 }
 
 .title,
